@@ -8,7 +8,6 @@ boundaries. More protocols are welcome to join this project.
 
 You can start contributing by sending a pull request to https://github.com/unprotocols/rfc on GitHub.
 
-
 ## Guidelines
 
 * A specification SHOULD be created and modified by pull requests according to [RFC 1/C4](1/README.md)
