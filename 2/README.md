@@ -1,9 +1,6 @@
-# RFC 2/COSS - Consensus Oriented Specification System
-
-
 This document describes a consensus-oriented specification system (COSS) for building interoperable technical specifications.  COSS is based on a lightweight editorial process that seeks to engage the widest possible range of interested parties and move rapidly to consensus through working code.
 
-* Name: rfc.unprotocols.org/2 (2/COSS)
+* Name: rfc.unprotocols.org/spec:2/COSS (2/COSS)
 * Editor: Pieter Hintjens <ph@imatix.com>
 * Contributors: André Rebentisch <andre@openstandards.de>, "Alberto Barrionuevo" <abarrio@opentia.es>, Chris Puttick <chris.puttick@thehumanjourney.net>
 * State: draft

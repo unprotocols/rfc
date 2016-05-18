@@ -1,8 +1,6 @@
-# RFC 1/C4 - Collective Code Construction Contract
-
 The Collective Code Construction Contract (C4) is an evolution of the github.com [Fork + Pull Model](http://help.github.com/send-pull-requests/), aimed at providing an optimal collaboration model for free software projects. This is revision 2 of the C4 specification.
 
-* Name: rfc.unprotocols.org/1 (1/C4)
+* Name: rfc.unprotocols.org/spec:1/C4 (1/C4)
 * Editor: Pieter Hintjens <ph@imatix.com>
 * State: stable
 
