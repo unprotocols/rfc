@@ -1,4 +1,4 @@
-# Introduction
+# Unprotocols RFC
 
 Unprotocols RFC is a repository for universal, cross-project protocols used in
 software development, ranging from workflow to technical ones.
