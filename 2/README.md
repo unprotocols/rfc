@@ -22,7 +22,7 @@ You should have received a copy of the GNU General Public License along with thi
 ## Change Process
 
 
-This document is governed by the [http://www.digistan.org/spec:1/COSS Consensus-Oriented Specification System] (COSS).
+This document is governed by the [2/COSS](../2/README.md) (COSS).
 
 ## Language
 
