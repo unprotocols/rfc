@@ -1,0 +1,28 @@
+@startuml
+title Consensus Oriented Specification System Life Cycle
+footer rfc.unprotocols.org/spec:2/COSS
+
+skinparam activity {
+  StartColor red
+  BarColor SaddleBrown
+  EndColor Silver
+  BackgroundColor Peru
+  BackgroundColor<< Begin >> Olive
+  BorderColor Peru
+}
+"Create" -right-> "<size:20>RAW</size>
+                   Use: mockups
+                   Goal: design it"
+-right-> "<size:20>DRAFT</size>
+                   Use: prototypes
+                   Goal: prove it"
+-down-> "<size:20>STABLE</size>
+                   Use: products
+                   Goal: deploy it"
+-left-> "<size:20>DEPRECATED</size>
+                  Use: products
+                  Goal: replace it"
+-left-> "<size:20>RETIRED</size>
+                  Use: historical
+                  Goal: study it"
+@enduml
