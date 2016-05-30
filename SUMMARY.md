@@ -6,6 +6,5 @@
   * [2/COSS](2/README.md)
 * Stable
   * [1/C4](1/README.md)
-* Legacy
+* Deprecated
 * Retired
-* Deleted

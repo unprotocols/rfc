@@ -2,7 +2,8 @@ This document describes a consensus-oriented specification system (COSS) for bui
 
 * Name: rfc.unprotocols.org/spec:2/COSS (2/COSS)
 * Editor: Pieter Hintjens <ph@imatix.com>
-* Contributors: André Rebentisch <andre@openstandards.de>, "Alberto Barrionuevo" <abarrio@opentia.es>, Chris Puttick <chris.puttick@thehumanjourney.net>
+* Contributors: André Rebentisch <andre@openstandards.de>, "Alberto Barrionuevo" <abarrio@opentia.es>, Chris Puttick <chris.puttick@thehumanjourney.net>,
+Yurii Rashkovskii <yrashk@gmail.com>
 * State: draft
 
 ## License
@@ -75,7 +76,7 @@ Every specification has an independent lifecycle that documents clearly its curr
 
 A specification has six possible states that reflect its maturity and contractual weight:
 
-![Lifecycle diagram](coss-lg.png)
+![Lifecycle diagram](lifecycle.png)
 
 ### Raw Specifications
 All new specifications are **raw** specifications. Changes to raw specifications can be unilateral and arbitrary. Those seeking to implement a raw specification should ask for it to be made a draft specification. Raw specifications have no contractual weight.
@@ -87,18 +88,13 @@ When raw specifications can be demonstrated, they become **draft** specification
 ### Stable Specifications
 When draft specifications are used by third parties, they become **stable** specifications. Changes to stable specifications should be restricted to errata and clarifications. Stable specifications are contracts between editors, implementers, and end-users.
 
-### Legacy Specifications
+### Deprecated Specifications
 
-When stable specifications are replaced by newer draft specifications, they become **legacy** specifications. Legacy specifications should not be changed except to indicate their replacements, if any. Legacy specifications are contracts between editors, implementers and end-users.
+When stable specifications are replaced by newer draft specifications, they become **deprecated** specifications. Deprecated specifications should not be changed except to indicate their replacements, if any. Deprecated specifications are contracts between editors, implementers and end-users.
 
 ### Retired Specifications
 
-When legacy specifications are no longer used in products, they become **retired** specifications. Retired specifications are part of the historical record. They should not be changed except to indicate their replacements, if any. Retired specifications have no contractual weight.
-
-### Deleted Specifications
-When raw or draft specifications are abandoned, they become **deleted** specifications. To change a deleted specification, the editor should first make it a raw specification again. Deleted specifications have no contractual weight.
-
-Raw and draft specifications SHOULD BE considered abandoned if they are not changed or used within a period of 3-6 months for raw and 9-18 months for draft specifications.
+When deprecated specifications are no longer used in products, they become **retired** specifications. Retired specifications are part of the historical record. They should not be changed except to indicate their replacements, if any. Retired specifications have no contractual weight.
 
 ## Editorial control
 
