@@ -64,7 +64,7 @@ Specifications exist as multiple pages, one page per version of the specificatio
     <domain>/spec:<number>/<shortname>
 
 
-For example, this specification is **rfc.unprotocols.org/spec:1/COSS**.  The short form **1/COSS** may be used when referring to the specification from other specifications in the same domain.
+For example, this specification is **rfc.unprotocols.org/spec:2/COSS**.  The short form **2/COSS** may be used when referring to the specification from other specifications in the same domain.
 
 Every specification (including branches) carries a different number.  Lower numbers indicate more mature specifications, higher numbers indicate more experimental specifications.
 
