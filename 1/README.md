@@ -29,8 +29,7 @@ C4 is meant to provide a reusable optimal collaboration model for open source so
 1. To allow the project to develop faster and more accurately, by increasing the diversity of the decision making process;
 1. To support the natural life cycle of project versions from experimental through to stable, by allowing safe experimentation, rapid failure, and isolation of stable code;
 1. To reduce the internal complexity of project repositories, thus making it easier for Contributors to participate and reducing the scope for error;
-
-* To enforce collective ownership of the project, which increases economic incentive to Contributors and reduces the risk of hijack by hostile entities.
+1. To enforce collective ownership of the project, which increases economic incentive to Contributors and reduces the risk of hijack by hostile entities.
 
 ## 2. Design
 
