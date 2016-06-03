@@ -1,15 +1,16 @@
 This document describes a consensus-oriented specification system (COSS) for building interoperable technical specifications.  COSS is based on a lightweight editorial process that seeks to engage the widest possible range of interested parties and move rapidly to consensus through working code.
 
 * Name: rfc.unprotocols.org/spec:2/COSS (2/COSS)
-* Editor: Pieter Hintjens <ph@imatix.com>
-* Contributors: André Rebentisch <andre@openstandards.de>, "Alberto Barrionuevo" <abarrio@opentia.es>, Chris Puttick <chris.puttick@thehumanjourney.net>,
-Yurii Rashkovskii <yrashk@gmail.com>
-* State: draft
+* Editor: Yurii Rashkovskii <yrashk@gmail.com>
+* Contributors: Pieter Hintjens <ph@imatix.com>, André Rebentisch <andre@openstandards.de>, "Alberto Barrionuevo" <abarrio@opentia.es>, Chris Puttick <chris.puttick@thehumanjourney.net>
+* Status: draft
+
+This specification is based on the original [Digistan 1/COSS](http://www.digistan.org/spec:1/COSS)
 
 ## License
 
 
-Copyright (c) 2008-09 the Editor and Contributors.
+Copyright (c) 2008-16 the Editor and Contributors.
 
 This Specification is free software; you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation; either version 3 of the License, or (at your option) any later version.
 
