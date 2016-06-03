@@ -99,7 +99,12 @@ When deprecated specifications are no longer used in products, they become **ret
 ## Editorial control
 
 
-A specification has a single responsible editor, who is the only person that can edit the text and change its status.  A specification may also have additional contributors who work through the editor.  The editor is responsible for accurately maintaining the state of specifications and for handling all comments on the specification.
+A specification MUST have a single responsible editor, the only person
+who SHALL change the status of the specification through the lifecycle stages.
+
+A specification MAY also have additional contributors who contribute changes to it. It is RECOMMENDED to use the [C4 process](../1/README.md) to maximize the scale and diversity of contributions.
+
+The editor is responsible for accurately maintaining the state of specifications and for handling all comments on the specification.
 
 ## Branching and Merging
 
