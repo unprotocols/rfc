@@ -1,4 +1,4 @@
-![draft](draft.svg)
+![draft](http://rfc.unprotocols.org/spec:2/COSS/stable.svg)
 
 This document describes a consensus-oriented specification system (COSS) for building interoperable technical specifications.  COSS is based on a lightweight editorial process that seeks to engage the widest possible range of interested parties and move rapidly to consensus through working code.
 
@@ -142,8 +142,8 @@ Where possible editors and contributors are encouraged to:
 
 It is RECOMMENDED to use color coding to indicate specification's status. Color coded specifications SHOULD use the following color scheme:
 
-* ![raw](raw.svg)
-* ![draft](draft.svg)
-* ![stable](stable.svg)
-* ![deprecated](deprecated.svg)
-* ![retired](retired.svg)
+* ![raw](http://rfc.unprotocols.org/spec:2/COSS/raw.svg)
+* ![draft](http://rfc.unprotocols.org/spec:2/COSS/draft.svg)
+* ![stable](http://rfc.unprotocols.org/spec:2/COSS/stable.svg)
+* ![deprecated](http://rfc.unprotocols.org/spec:2/COSS/deprecated.svg)
+* ![retired](http://rfc.unprotocols.org/spec:2/COSS/retired.svg)
