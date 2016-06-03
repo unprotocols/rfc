@@ -1,8 +1,10 @@
+![stable](../2/stable.svg)
+
 The Collective Code Construction Contract (C4) is an evolution of the github.com [Fork + Pull Model](http://help.github.com/send-pull-requests/), aimed at providing an optimal collaboration model for free software projects. This is revision 2 of the C4 specification.
 
 * Name: rfc.unprotocols.org/spec:1/C4 (1/C4)
 * Editor: Pieter Hintjens <ph@imatix.com>
-* State: stable
+* Status: stable
 
 This RFC is equivalent (with the exception of minor cosmetic changes) to [ZeroMQ RFC 42/C4](http://rfc.zeromq.org/spec:42)
 
