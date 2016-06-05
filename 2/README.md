@@ -1,4 +1,4 @@
-![draft](http://rfc.unprotocols.org/spec:2/COSS/stable.svg)
+![draft](http://rfc.unprotocols.org/spec:2/COSS/draft.svg)
 
 This document describes a consensus-oriented specification system (COSS) for building interoperable technical specifications.  COSS is based on a lightweight editorial process that seeks to engage the widest possible range of interested parties and move rapidly to consensus through working code.
 
