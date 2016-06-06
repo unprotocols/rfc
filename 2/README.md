@@ -1,11 +1,17 @@
-![draft](http://rfc.unprotocols.org/spec:2/COSS/draft.svg)
+---
+domain: rfc.unprotocols.org
+shortname: 2/COSS
+name: Consensus-Oriented Specification System
+status: draft
+editor: Yurii Rashkovskii <yrashk@gmail.com>
+contributors:
+  - Pieter Hintjens <ph@imatix.com>
+  - André Rebentisch <andre@openstandards.de>
+  - Alberto Barrionuevo <abarrio@opentia.es>
+  - Chris Puttick <chris.puttick@thehumanjourney.net>
+---
 
 This document describes a consensus-oriented specification system (COSS) for building interoperable technical specifications.  COSS is based on a lightweight editorial process that seeks to engage the widest possible range of interested parties and move rapidly to consensus through working code.
-
-* Name: rfc.unprotocols.org/spec:2/COSS (2/COSS)
-* Editor: Yurii Rashkovskii <yrashk@gmail.com>
-* Contributors: Pieter Hintjens <ph@imatix.com>, André Rebentisch <andre@openstandards.de>, "Alberto Barrionuevo" <abarrio@opentia.es>, Chris Puttick <chris.puttick@thehumanjourney.net>
-* Status: draft
 
 This specification is based on the original [Digistan 1/COSS](http://www.digistan.org/spec:1/COSS)
 
@@ -147,3 +153,18 @@ It is RECOMMENDED to use color coding to indicate specification's status. Color 
 * ![stable](http://rfc.unprotocols.org/spec:2/COSS/stable.svg)
 * ![deprecated](http://rfc.unprotocols.org/spec:2/COSS/deprecated.svg)
 * ![retired](http://rfc.unprotocols.org/spec:2/COSS/retired.svg)
+
+
+## Appendix B. Metainformation
+
+It is RECOMMENDED that specification metadata is specified as a YAML header (where possible) or a separate YAML file. This will enable programmatic access
+to specification metadata.
+
+| Key              | Value                | Type   | Example             |
+|------------------|----------------------|--------|---------------------|
+| **domain**       | specification domain | string | rfc.unprotocols.org |
+| **shortname**    | short name           | string | 2/COSS              |
+| **name**         | full name            | string | Consensus-Oriented Specification System |
+| **status**       | status               | string | draft               |
+| **editor**       | editor name/email    | string | Yurii Rashkovskii <yrashk@gmail.com> |
+| **contributors** | contributors         | list   | Pieter Hintjens <ph@imatix.com>, André Rebentisch <andre@openstandards.de>, Alberto Barrionuevo <abarrio@opentia.es>, Chris Puttick <chris.puttick@thehumanjourney.net> |
