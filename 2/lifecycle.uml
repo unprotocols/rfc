@@ -10,19 +10,30 @@ skinparam activity {
   BackgroundColor<< Begin >> Olive
   BorderColor Peru
 }
-"Create" -right-> "<size:20>RAW</size>
-                   Use: mockups
-                   Goal: design it"
--right-> "<size:20>DRAFT</size>
-                   Use: prototypes
-                   Goal: prove it"
--down-> "<size:20>STABLE</size>
-                   Use: products
-                   Goal: deploy it"
--left-> "<size:20>DEPRECATED</size>
-                  Use: products
-                  Goal: replace it"
--left-> "<size:20>RETIRED</size>
-                  Use: historical
-                  Goal: study it"
+|Raw|
+:Create;
+:Use: mockups, Goal: design it;
+if (useful) then (yes)
+|Draft|
+:Use: prototypes, Goal: prove it;
+:Iterate;
+if (successful) then (yes)
+|Stable|
+:Use: products, Goal: deploy it;
+:Cosmetic improvements;
+|Deprecated|
+:Use: products, Goal: replace it;
+|Retired|
+:Use: historical, Goal: study it;
+detach
+else (no)
+|Deleted|
+:Archive;
+detach
+endif
+else (no)
+|Deleted|
+:Archive;
+detach
+endif
 @enduml

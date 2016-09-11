@@ -105,6 +105,11 @@ When stable specifications are replaced by newer draft specifications, they beco
 
 When deprecated specifications are no longer used in products, they become **retired** specifications. Retired specifications are part of the historical record. They should not be changed except to indicate their replacements, if any. Retired specifications have no contractual weight.
 
+### Deleted Specifications
+
+Deleted specifications are those that have not reached maturity (stable) and were discarded. They should not be used and are only kept for their historical
+value. Only Raw and Draft specifications can be deleted.
+
 ## Editorial control
 
 
@@ -153,6 +158,7 @@ It is RECOMMENDED to use color coding to indicate specification's status. Color 
 * ![stable](http://rfc.unprotocols.org/spec:2/COSS/stable.svg)
 * ![deprecated](http://rfc.unprotocols.org/spec:2/COSS/deprecated.svg)
 * ![retired](http://rfc.unprotocols.org/spec:2/COSS/retired.svg)
+* ![retired](http://rfc.unprotocols.org/spec:2/COSS/deleted.svg)
 
 
 ## Appendix B. Metainformation
